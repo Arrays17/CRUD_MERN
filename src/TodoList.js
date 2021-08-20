@@ -30,7 +30,7 @@ export const TodoList = () => {
                                     {todo.text}
                                 </td>
                                 <td>
-                                    <Link to={'/edit/${todo.id}'}>Edit</Link>
+                                    <Link to={"/edit/${todo.id}"}>Edit</Link>
                                 </td>
                             </tr>
                         ))
